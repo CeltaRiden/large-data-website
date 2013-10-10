@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Reset Your Margins and Padding, target all your element tags that you are using */
+* {
+	margin:0;
+	padding:0;
+}
+
+
+
+.logo {
+	margin:0 auto;
+	text-align:center;	
+}
+
+.logo img {
+	width:340px;
+	height:150px;	
+	
+}
+
+
+.list-group-item-inline{
+	display:inline-block;
+	float:left;
+	list-style-type:none;
+}
+
+.social-media {
+	text-align:center;	
+}
+
+.social-media ul {
+	display:inline-block;	
+}
+
+.social-media li{
+	margin: 6px;
+}
+
+.nav-wrapper {
+	text-align:center;
+	clear:left;
+	font-size:1.25em;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 1em;
+}
+
+.nav-wrapper{
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:2em;
+	color: #58585B;
+	
+}
+
+.media-body h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.5em;
+}
+
+
+footer {
+	text-align:center;
+	background-color:#3DEE1D4;
+	padding: 3em;
+}
+	
+@media only screen and (max-width: 38em) {
+	.about figure {
+	display:none;	
+	}
+}
+@media only screen and (min-width: 38em) {
+  .about {
+	  clear:left;
+  }
+ 
+  
+  .social-media{
+	  float: right;
+	  display:inline block;
+  }
+  
+  .logo {
+		display:inline-block;
+		float:left;  
+  }
+  
+  .list-nav-item-inline {
+		display:inline-block;
+		float:left;  
+  }
+  
+  .unit-l-4-4 img {
+  	width:100%;
+  }
+}
