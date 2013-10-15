@@ -4,15 +4,12 @@
 @-webkit-viewport {width: device-width; scale: 1; }
 @viewport {width: device-width; scale: 1; }
 
-
-
-
 /* Reset Your Margins and Padding, target all your element tags that you are using */
 * {
-	 -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
     box-sizing: border-box;
-    
+
 	margin:0;
 	padding:0;
 }
@@ -28,9 +25,10 @@
 	
 }
 
-.flex-img {
-	width:100%;
-}
+
+.unit-l-4-4 img {
+  	display: none;
+  }
 
 
 .list-group-item-inline{
@@ -64,34 +62,64 @@
 }
 
 
-h1{
+.intro{
+	background-color:#CF6;
+	text-decoration:none;
+	padding:1.5em;
+}
+
+.intro h1{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:2em;
+	font-size: 2em;
+	color: #58585B;
+	
+}
+
+.intro p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
 	color: #58585B;
 	
 }
 
 .about{
-	background-color:#CF6;
+	display: inline-block;
+	background-color: #58585B;
 	text-decoration:none;
-	padding:2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1.5em; 
 }
 
+.about h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.6em;
+	color: #FFF;
+	padding-bottom: 0.5em;
+	
+}
 
-.about figure {
-	display:none;	
+.about p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #FFF;
+	
 }
 
 footer {
 	text-align:center;
-	background-color: #ccc;
+	background-color: #8CA03D;
 	margin-top: 35px;
-	padding: 0;
+	padding: 1.5em;
 
 }
 
-.footer p{
+footer p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	color: #FFF;
 	padding: 0;
+
 }
 
 
@@ -99,18 +127,6 @@ footer {
 @media only screen and (min-width: 38em) {
  
 
-.about figure {
-	display:inherit;
-}
-
- .about {
-	  clear:left;
-  }
-
-.about img{
-	display:float;
-	width: 100%;
-}
  
   
   .social-media{
@@ -131,6 +147,7 @@ footer {
 
 
   .unit-l-4-4 img {
+  	display: block;
   	width:100%;
   }
   
