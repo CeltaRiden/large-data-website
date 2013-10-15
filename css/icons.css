@@ -9,13 +9,10 @@
 .i-32{
 	width:32px;
 	height: 32px;
-	padding:1em;
+	padding:0.5em;
+	
 }
 
-.i-16{
-	width: 16px;
-	height: 16px;
-}
 
 .icon-link{
 	text-decoration: none;

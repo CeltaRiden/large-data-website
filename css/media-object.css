@@ -5,7 +5,51 @@
 
 .media-img{
 	float: left;
-	margin-right: 10px;
+	margin: 0;
+	border-radius: 50%;
+}
+
+.media-body{
+	display:block;
+	background-color:#CFC;
+	padding: 0;
+
+}
+
+.media-body h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.5em;
+}
+
+
+.media-title{
+	margin: 0;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.media-img-stacked{
+	float:none;
+	margin: 0 0 20px;
+	display: block;
+}
+
+@media only screen and (min-width: 25.25em) {
+
+	
+}
+
+
+@media only screen and (min-width: 28em) {
+
+}
+
+@media only screen and (min-width: 38em) and (max-width: 60em) {
+	
+.media-body{
+	overflow: hidden;
+	/*floating will wrap around image if you put overflow 
+	it an image without a fixed width this is a trick*/
 }
 
 .media-img-reversed{
@@ -16,19 +60,10 @@
 
 .media-img-stacked{
 	float:none;
-	margin: 0 0 10px;
+	margin: 0 0 20px;
+	display: block;
 }
 
-.media-body{
-	overflow: hidden;
-	/*floating will wrap around image if you put overflow 
-	it an image without a fixed width this is a trick*/
-}
-
-.media-title{
-	margin: 0;
-	font-size: 1em;
-	font-weight: bold;
 }
 
 

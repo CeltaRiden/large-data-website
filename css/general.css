@@ -1,13 +1,15 @@
-@charset "UTF-8";
-/* CSS Document */
+@-moz-viewport {width: device-width; scale: 1; }
+@-ms-viewport {width: device-width; scale: 1; }
+@-o-viewport {width: device-width; scale: 1; }
+@-webkit-viewport {width: device-width; scale: 1; }
+@viewport {width: device-width; scale: 1; }
+
 
 /* Reset Your Margins and Padding, target all your element tags that you are using */
 * {
 	margin:0;
 	padding:0;
 }
-
-
 
 .logo {
 	margin:0 auto;
@@ -18,6 +20,10 @@
 	width:340px;
 	height:150px;	
 	
+}
+
+.flex-img {
+	width:100%;
 }
 
 
@@ -39,6 +45,10 @@
 	margin: 6px;
 }
 
+.list-nav-item{
+	list-style-type:none;
+}
+
 .nav-wrapper {
 	text-align:center;
 	clear:left;
@@ -47,8 +57,6 @@
 	padding: 1em;
 }
 
-.nav-wrapper{
-}
 
 h1{
 	font-family:Arial, Helvetica, sans-serif;
@@ -57,27 +65,46 @@ h1{
 	
 }
 
-.media-body h2 {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:1.5em;
+.about{
+	background-color:#CF6;
+	text-decoration:none;
+	padding:2em;
 }
 
+
+.about figure {
+	display:none;	
+}
 
 footer {
 	text-align:center;
-	background-color:#3DEE1D4;
-	padding: 3em;
+	background-color: #ccc;
+	margin-top: 35px;
+	padding: 0;
+
 }
-	
-@media only screen and (max-width: 38em) {
-	.about figure {
-	display:none;	
-	}
+
+.footer p{
+	padding: 0;
 }
+
+
+
 @media only screen and (min-width: 38em) {
-  .about {
+ 
+
+.about figure {
+	display:inherit;
+}
+
+ .about {
 	  clear:left;
   }
+
+.about img{
+	display:float;
+	width: 100%;
+}
  
   
   .social-media{
@@ -92,10 +119,13 @@ footer {
   
   .list-nav-item-inline {
 		display:inline-block;
-		float:left;  
+		float:left;
+		margin:2em;  
   }
-  
+
+
   .unit-l-4-4 img {
   	width:100%;
   }
+  
 }
