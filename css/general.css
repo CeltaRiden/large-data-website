@@ -5,8 +5,14 @@
 @viewport {width: device-width; scale: 1; }
 
 
+
+
 /* Reset Your Margins and Padding, target all your element tags that you are using */
 * {
+	 -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
 	margin:0;
 	padding:0;
 }
