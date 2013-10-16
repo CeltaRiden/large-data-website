@@ -14,25 +14,43 @@
 	padding:0;
 }
 
+html {
+	font: normal 100%/1.4 Helvetica, Arial, sans-serif;
+}
+
+
+
+.header-top {
+	overflow: hidden;
+}
+
 .logo {
 	margin:0 auto;
-	text-align:center;	
+	text-align: center;
+	overflow: hidden;
 }
 
-.logo img {
-	width:340px;
-	height:150px;	
-	
+.logo-img {
+	width: 100%;
+	max-width: 340px;
+	overflow: hidden;
 }
 
 
-.unit-l-4-4 img {
+/* Home Banner (change the name of classes for use in other pages) */
+
+.home-img {
   	display: none;
-  }
+}
 
+.home-img > img {
+	width: 100%;
+}
+
+/* Navigation */
 
 .list-group-item-inline{
-	display:inline-block;
+	display:inline;
 	float:left;
 	list-style-type:none;
 }
@@ -50,15 +68,23 @@
 }
 
 .list-nav-item{
-	list-style-type:none;
+	list-style-type: none;
+
 }
 
-.nav-wrapper {
-	text-align:center;
-	clear:left;
+/* Navigation */
+
+.header-bottom {
 	font-size:1.25em;
-	font-family:Arial, Helvetica, sans-serif;
-	padding: 1em;
+	margin: 1em 0;
+	text-align: center;
+}
+
+.nav-list {
+}
+
+.nav-list-item {
+	list-style-type: none;
 }
 
 
@@ -68,21 +94,18 @@
 	padding:1.5em;
 }
 
-.intro h1{
-	font-family:Arial, Helvetica, sans-serif;
+.intro h2{
 	font-size: 2em;
 	color: #58585B;
 	
 }
 
-.intro p{
-	font-family:Arial, Helvetica, sans-serif;
-	font-size: 1em;
+.intro p {
 	color: #58585B;
 	
 }
 
-.about{
+.about {
 	display: inline-block;
 	background-color: #58585B;
 	text-decoration:none;
@@ -91,16 +114,14 @@
 	padding: 1.5em; 
 }
 
-.about h2{
-	font-family:Arial, Helvetica, sans-serif;
+.about h3 {
 	font-size:1.6em;
 	color: #FFF;
 	padding-bottom: 0.5em;
 	
 }
 
-.about p{
-	font-family:Arial, Helvetica, sans-serif;
+.about p {
 	font-size: 0.8em;
 	color: #FFF;
 	
@@ -125,24 +146,41 @@ footer p{
 
 
 @media only screen and (min-width: 38em) {
- 
 
+	header {
+		margin: 0 2em;
+	}
  
-  
-  .social-media{
-	  float: right;
-	  display:inline block;
-  }
+	.header-top {
+	}
+
+	.home-img {
+	  	display: block;
+	}
+
+	.home-img > img {
+		width: 100%;
+	}
   
   .logo {
 		display:inline-block;
 		float:left;  
   }
+
+
+  .social-media{
+	  float: right;
+	  display:inline;
+	  margin-top: 5em;
+  }
   
-  .list-nav-item-inline {
-		display:inline-block;
-		float:left;
-		margin:2em;  
+  .header-bottom {
+	text-align: left;
+}
+  
+  .nav-list-item-inline {
+		display:inline;
+		margin-right: 1em;  
   }
 
 
@@ -151,4 +189,8 @@ footer p{
   	width:100%;
   }
   
+}
+
+@media only screen and (min-width: 70em) {
+
 }
