@@ -157,14 +157,13 @@ footer p{
 
 	.home-img {
 	  	display: block;
-	  	float: left;
 	}
 
 	.home-img > img {
 		width: 100%;
 	}
   
-  .logo {
+  .herbs-logo {
 		display:inline-block;
 		float:left;  
   }
