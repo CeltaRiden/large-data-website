@@ -1,0 +1,15 @@
+/* TEAM */         
+Your title: Celta Riden.  
+Site: celta.riden@gmail.com, link to a contact form, etc.   
+Location: Ottawa, Canada.
+
+							
+/* THANKS */			
+Name: Celta Riden
+   
+                       
+/* SITE */
+Last update: 2013/10/25 
+Standards: HTML5, CSS6,
+Components: , jQuery, etc.
+Software: Dreamweaver
