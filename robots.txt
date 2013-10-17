@@ -1,0 +1,11 @@
+#http://robotstxt.org
+#This file must be saved at the root of your domain
+#In the same location as your homepage index.html
+#http://domain.com/robots.txt
+
+Sitemap: http://celtariden.github.io/large-data-website/sitemap.xml
+
+
+#You can use your robots.txt to prevent Google from spidering things
+#User-Agent: *
+#Disallow: /img
