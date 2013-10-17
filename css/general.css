@@ -157,6 +157,7 @@ footer p{
 
 	.home-img {
 	  	display: block;
+	  	float: left;
 	}
 
 	.home-img > img {
