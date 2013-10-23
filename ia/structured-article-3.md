@@ -1,7 +1,9 @@
 ---
 title: Ginger
 subtitle: Herbs for health and cooking
+category: health
 Author: Wikipedia
+
 Date: 18 September 2013 
 
 ---
