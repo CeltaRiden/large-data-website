@@ -1,0 +1,40 @@
+---
+title: recipes
+layout: alt
+---
+
+	
+
+	
+	<div class="grid border">
+			
+			<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+				
+				<div class="unit-spacer">
+					
+						<div class="media-body media-2">
+							
+							<h2>Recipes</h2>
+
+								<ul>
+									{% for recipe in site.pages %}
+										{% if recipe.category == "Recipes" %}
+											<li>
+												<a href="{{recipe.url}}">{{recipe.title}}</a>
+											</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
+
+						</div>	
+					
+				</div>
+			
+			</div>
+
+		
+	</div>
+			
+
+			
+			
