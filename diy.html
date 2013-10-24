@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{% if page.title %}{{page.title}} · {% endif %}DIY </title>
+<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+<meta name="description" content="home">
+<meta name="handheldfriendly" content="true">
+<meta name="mobiloptimized" content="240">
+<meta name="viewport" content="width=device-width,initial-scale=1, target-densitydpi=device-dpi">
+
+</head>
+
+<body>
+	
+	<header>
+
+		<div class="header-top">
+			<div class="herbs-logo">
+					<h1><a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/img/herbslogo.svg" class="logo-img" alt="Herbs Logo"></a></h1>
+			</div>
+			
+			<div class="social-media">
+				<ul>
+					<li class="list-group-item list-group-item-inline">
+						<a href="#" class="icon i-32 i-twitter image-replacement">
+						</a>
+					</li>
+					
+					<li class="list-group-item list-group-item-inline">
+						<a href="#" class="icon i-32 i-facebook image-replacement">
+						</a>
+					</li>
+					
+					<li class="list-group-item list-group-item-inline">
+						<a href="#" class="icon i-32 i-pinterest image-replacement">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<nav class="header-bottom">
+			<ul class="nav-list">
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/index.html">Home</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/history.html">History</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/health.html">Health</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/recipes.html">Recipes</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/diy.html">DIY</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/gardening.html">Gardening</a></li>
+			</ul>
+		</nav>
+		
+	</header>
+
+		{{content}}
+
+	<footer>
+		
+		<p>The information on this site is intended for educational purposes only and is 
+		not a substitute for the advice of a qualified healthcare professional. &copy; 2013 Celta Riden Designs.</p>
+		
+	</footer>
+
+</body>
+</html>
