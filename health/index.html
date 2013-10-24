@@ -1,0 +1,37 @@
+---
+title: health
+layout: alt
+---
+
+	
+
+	
+	<div class="grid border">
+			
+			<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+				
+				<div class="unit-spacer">
+					
+						<div class="media-body media-2">
+							
+							<h2>Health</h2>
+
+								<ul>
+									{% for health in site.pages %}
+										{% if health.category == "Health" %}
+											<li>
+												<a href="{{health.url}}">{{health.title}}</a>
+											</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
+
+						</div>	
+					
+				</div>
+			
+			</div>
+
+		
+	</div>
+			

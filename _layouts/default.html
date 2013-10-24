@@ -2,7 +2,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Herbs — {{page.title}}, {{page.subtitle}}</title>
+<!-- Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Herbs · Making meals tasty and keeping you healthy">
+<meta property="og:url" content="http://celtariden.github.io/large-data-website">
+<meta property="og:image" content="http://placehold.it/200X200">
+<!-- Image size: minimum of 200X200, recommend 1500X1500-->
+<meta property="og:description" content="Making meals tasty and keeping you healthy; Ottawa, Canada.">
+<meta property="og:site_name" content="Herbs">
+<!-- Twitter-->
+<meta property="twitter:card" content="sumamry">
+<meta property="twitter:title" content="Herbs · Making meals tasty and keeping you healthy">
+<meta property="twitter:url" content="http://celtariden.github.io/large-data-website">
+<meta property="twitter:image" content="http://placehold.it/200X200">
+<!-- Image size: 120X120 at least -->
+<meta property="twitter:description" content="Making meals tasty and keeping you healthy">
+<!-- Pinterest -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Herbs · Making meals tasty and keeping you healthy">
+<meta property="og:url" content="http://celtariden.github.io/large-data-website">
+<meta property="og:image" content="http://placehold.it/200X200">
+<!-- Image size: minimum of 200X200, recommend 1500X1500-->
+<meta property="og:description" content="Making meals tasty and keeping you healthy; Ottawa, Canada.">
+<meta property="og:site_name" content="Herbs">
+<title>{% if page.title %}{{page.title}} · {% endif %}Herbs </title>
 <link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
@@ -17,6 +40,8 @@
 <body>
 	
 	<header>
+
+
 
 		<div class="header-top">
 			<div class="herbs-logo">
@@ -45,12 +70,12 @@
 		
 		<nav class="header-bottom">
 			<ul class="nav-list">
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/index.html">Home</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/history">History</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/health">Health</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/recipes">Recipes</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/diy">DIY</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/gardening">Gardening</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/">Home</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/history/">History</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/health/">Health</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/recipes/">Recipes</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/diy/">DIY</a></li>
+					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/gardening/">Gardening</a></li>
 			</ul>
 		</nav>
 		
