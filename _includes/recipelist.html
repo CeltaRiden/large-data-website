@@ -1,0 +1,9 @@
+<ul class="recipe-list">
+	{% for recipe in site.pages %}
+		{% if recipe.category == include.recipes %}
+			<li>
+				<a href="{{recipe.url}}">{{recipetype}}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

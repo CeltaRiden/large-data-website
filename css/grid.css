@@ -17,6 +17,7 @@
   text-rendering: auto;
   vertical-align: top;
   word-spacing: normal;
+  float: left;
 }
 .unit-spacer {
   padding: 8px;

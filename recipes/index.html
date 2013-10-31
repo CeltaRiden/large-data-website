@@ -9,14 +9,10 @@ layout: alt
 	<div class="grid border">
 			
 			<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-				
-				<div class="unit-spacer">
-					
-						<div class="media-body media-2">
 							
 							<h2>Recipes</h2>
 
-								<ul>
+								<ul class="recipe-list">
 									{% for recipe in site.pages %}
 										{% if recipe.category == "Recipes" %}
 											<li>
@@ -25,12 +21,8 @@ layout: alt
 										{% endif %}
 									{% endfor %}
 								</ul>
-
-						</div>	
 					
 				</div>
-			
-			</div>
 
 		
 	</div>

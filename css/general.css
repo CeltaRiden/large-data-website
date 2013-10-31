@@ -30,6 +30,7 @@ body {
 	display: block;
 	max-width: 60em;
 	margin: 0 auto;
+	padding: 1.5em;
 }
 
 .header-top {
@@ -118,8 +119,7 @@ body {
 
 .intro{
 	background-color:transparent;
-	text-decoration:none;
-	padding:1.5em; 
+	text-decoration:none; 
 }
 
 .intro h2{
@@ -136,10 +136,7 @@ body {
 .about {
 	display: inline-block;
 	background-color: transparent;
-	text-decoration:none;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	padding: 1.5em; 
+	text-decoration:none; 
 }
 
 .about h3 {
@@ -173,7 +170,7 @@ footer p{
 
 @media only screen and (min-width: 25em) {
 	
-	.nav-list-item{
+	.nav-list-item {
 		display: inline-block;
 		width: 50%;
 		float: left;
@@ -182,6 +179,13 @@ footer p{
 	}
 }
 
+.recipe-list {
+	text-decoration: none;
+}
+
+.recipe-list li {
+	list-style-type: none;
+}
 
 @media only screen and (min-width: 39em) {
 
@@ -240,6 +244,9 @@ footer p{
 	text-align: left;
 }
 
+.about {
+
+}
 
   .unit-l-4-4 img {
   	display: block;
