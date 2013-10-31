@@ -38,57 +38,59 @@
 </head>
 
 <body>
-	
-	<header>
 
 
+	<div class="container">
 
-		<div class="header-top">
-			<div class="herbs-logo">
+		<header>
+			<div class="header-top">
+				<div class="herbs-logo">
 					<h1><a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/img/herbslogo.svg" class="logo-img" alt="Herbs Logo"></a></h1>
+				</div>
+				
+				<div class="social-media">
+					<ul>
+						<li class="list-group-item list-group-item-inline">
+							<a href="#" class="icon i-32 i-twitter image-replacement">
+							</a>
+						</li>
+						
+						<li class="list-group-item list-group-item-inline">
+							<a href="#" class="icon i-32 i-facebook image-replacement">
+							</a>
+						</li>
+						
+						<li class="list-group-item list-group-item-inline">
+							<a href="#" class="icon i-32 i-pinterest image-replacement">
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			
-			<div class="social-media">
-				<ul>
-					<li class="list-group-item list-group-item-inline">
-						<a href="#" class="icon i-32 i-twitter image-replacement">
-						</a>
-					</li>
-					
-					<li class="list-group-item list-group-item-inline">
-						<a href="#" class="icon i-32 i-facebook image-replacement">
-						</a>
-					</li>
-					
-					<li class="list-group-item list-group-item-inline">
-						<a href="#" class="icon i-32 i-pinterest image-replacement">
-						</a>
-					</li>
+			<nav class="header-bottom">
+				<ul class="nav-list">
+					<li class="nav-list-item"><a href="{{site.baseurl}}/">Home</a></li>
+					<li class="nav-list-item"><a href="{{site.baseurl}}/history/">History</a></li>
+					<li class="nav-list-item"><a href="{{site.baseurl}}/health/">Health</a></li>
+					<li class="nav-list-item"><a href="{{site.baseurl}}/recipes/">Recipes</a></li>
+					<li class="nav-list-item"><a href="{{site.baseurl}}/diy/">DIY</a></li>
+					<li class="nav-list-item"><a href="{{site.baseurl}}/gardening/">Gardening</a></li>
 				</ul>
-			</div>
-		</div>
-		
-		<nav class="header-bottom">
-			<ul class="nav-list">
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/">Home</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/history/">History</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/health/">Health</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/recipes/">Recipes</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/diy/">DIY</a></li>
-					<li class="nav-list-item nav-list-item-inline"><a href="{{site.baseurl}}/gardening/">Gardening</a></li>
-			</ul>
-		</nav>
-		
-	</header>
+			</nav>
+			
+		</header>
 
-		{{content}}
+			{{content}}
 
-	<footer>
-		
-		<p>The information on this site is intended for educational purposes only and is 
-		not a substitute for the advice of a qualified healthcare professional. &copy; 2013 Celta Riden Designs.</p>
-		
-	</footer>
+		<footer>
+			
+			<p>The information on this site is intended for educational purposes only and is 
+			not a substitute for the advice of a qualified healthcare professional. &copy; 2013 Celta Riden Designs.</p>
+			
+		</footer>
+
+	</div>
 
 </body>
 </html>

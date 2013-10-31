@@ -18,7 +18,19 @@ html {
 	font: normal 100%/1.4 Helvetica, Arial, sans-serif;
 }
 
+body {
+	background-image: url("../img/top-texture.jpg");
+	background-repeat: repeat-x;
+	background-position: top;
+	background-size: 100% 120px;
 
+}
+
+.container{
+	display: block;
+	max-width: 60em;
+	margin: 0 auto;
+}
 
 .header-top {
 	overflow: hidden;
@@ -82,17 +94,32 @@ html {
 }
 
 .nav-list {
+	overflow: hidden;
 }
 
 .nav-list-item {
 	list-style-type: none;
 }
 
+.nav-list-item a {
+	display: block;
+	text-decoration: none;
+	background-color: #DEE1D4;
+	color: #58585B;
+	padding: 0.5em;
+}
+
+.nav-list-item a:hover,
+.nav-list-item a:focus,
+.nav-list-item a:active{
+	background-color:#58585B;
+	color:#DEE1D4;
+}
 
 .intro{
-	background-color:#CF6;
+	background-color:transparent;
 	text-decoration:none;
-	padding:1.5em;
+	padding:1.5em; 
 }
 
 .intro h2{
@@ -108,7 +135,7 @@ html {
 
 .about {
 	display: inline-block;
-	background-color: #58585B;
+	background-color: transparent;
 	text-decoration:none;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -117,14 +144,14 @@ html {
 
 .about h3 {
 	font-size:1.6em;
-	color: #FFF;
+	color: #58585B;
 	padding-bottom: 0.5em;
 	
 }
 
 .about p {
 	font-size: 0.8em;
-	color: #FFF;
+	color: #58585B;
 	
 }
 
@@ -132,21 +159,35 @@ footer {
 	text-align:center;
 	background-color: #8CA03D;
 	margin-top: 35px;
-	padding: 1.5em;
+	padding: 2em;
 
 }
 
 footer p{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size: 0.7em;
+	font-size: 1em;
 	color: #FFF;
 	padding: 0;
 
 }
 
+@media only screen and (min-width: 25em) {
+	
+	.nav-list-item{
+		display: inline-block;
+		width: 50%;
+		float: left;
+		background-color: none;
+		color: none;
+	}
+}
 
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 39em) {
+
+	body{
+		margin-top: 2em;
+	}
 
 	header {
 		margin: 0 2em;
@@ -169,20 +210,35 @@ footer p{
   }
 
 
+  .nav-list-item {
+  	display:inline;
+	margin-right: 1em;
+  	width: auto;
+  	background-color: none;
+  }
+
+  .nav-list-item a {
+  	display: inline;
+	background-color: transparent;
+	color: #58585B;
+  }
+
+  .nav-list-item a:hover,
+  .nav-list-item a:focus,
+  .nav-list-item a:active {
+  	background-color: transparent;
+  	color: #8CA03D;
+  }
+
   .social-media{
 	  float: right;
 	  display:inline;
-	  margin-top: 5em;
+	  margin-top: 7em;
   }
   
   .header-bottom {
 	text-align: left;
 }
-  
-  .nav-list-item-inline {
-		display:inline;
-		margin-right: 1em;  
-  }
 
 
   .unit-l-4-4 img {
