@@ -26,6 +26,7 @@
 <meta property="og:description" content="Making meals tasty and keeping you healthy; Ottawa, Canada.">
 <meta property="og:site_name" content="Herbs">
 <title>{% if page.title %}{{page.title}} · {% endif %}Herbs </title>
+<link href="{{site.baseurl}}/css/skiplinks.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
@@ -41,7 +42,6 @@
 
 <ul class="skiplinks">
 	<li><a href="#main">Skip to primary conent</a></li>
-	<li><a href="#complemntary">Skip to secondary conent</a></li>
 	<li><a href="#navigation">Skip to main navigation</a></li>
 </ul>
 
@@ -91,7 +91,7 @@
 			
 		</header>
 
-			{{content}}
+			<main role="main" id="main">{{content}}</main>
 
 		<footer role="contentinfo">
 			
