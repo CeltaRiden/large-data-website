@@ -1,6 +1,6 @@
 ---
 title: recipes
-layout: alt
+layout: default
 ---
 
 	
@@ -8,7 +8,7 @@ layout: alt
 	
 	<div class="grid border">
 			
-			<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+			<div class="categorylist unit unit-s-1 unit-m-1-2 unit-l-1-2">
 							
 							<h2>Recipes</h2>
 
@@ -16,7 +16,10 @@ layout: alt
 									{% for recipe in site.pages %}
 										{% if recipe.category == "Recipes" %}
 											<li>
-												<a href="{{recipe.url}}">{{recipe.title}}</a>
+												<a href="{{recipe.url}}">
+													<img src="{{site.baseurl}}/img/recipes/{{recipe.thumb}}" alt="">
+													{{recipe.title}}
+												</a>
 											</li>
 										{% endif %}
 									{% endfor %}
