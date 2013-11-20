@@ -10,7 +10,7 @@ description: In this recipe, the rice is cooked in boiling water just like pasta
 
 ---
 
-![Saffron Rice with Tomatoes and Fresh Oregano](saffron-rice.jpg)
+![Saffron Rice with Tomatoes and Fresh Oregano]({{site.baseurl}}/img/recipes/saffronrice.jpg)
 
 ## Saffron Rice with Tomatoes and Fresh Oregano
 

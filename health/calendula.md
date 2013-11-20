@@ -7,7 +7,7 @@ Author: Wikipedia
 
 ---
 
-![Calendula]()
+![Calendula]({{site.baseurl}}/img/health/calendula.jpg)
 
 ## Calendula
 

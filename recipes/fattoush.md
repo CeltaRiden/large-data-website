@@ -12,7 +12,7 @@ description: This summer salad showcases the season's best produce, with cooling
 
 ## Fattoush 
 
-![Fattoush](fattoush.jpg)
+![Fattoush]({{site.baseurl}}/img/recipes/fattoush.jpg)
 
 A wonderful spread for bagels or crackers, this is creamy and herby, perfect for that ferocious morning hunger when the scrambled eggs aren't quite ready yet.
 

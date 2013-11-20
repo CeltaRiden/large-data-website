@@ -7,7 +7,7 @@ Author: Wikipedia
 
 ---
 
-![Lavandula](http://upload.wikimedia.org/wikipedia/commons/6/60/Single_lavendar_flower02.jpg)
+![Lavandula]({{site.baseurl}}/img/health/lavandula.jpg)
 
 ## Lavandula
 

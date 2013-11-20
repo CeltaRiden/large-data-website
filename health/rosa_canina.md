@@ -7,7 +7,7 @@ Author: Wikipedia
 
 ---
 
-![Rosa canina](http://upload.wikimedia.org/wikipedia/commons/3/32/Divlja_ruza_cvijet_270508.jpg)
+![Rosa canina]({{site.baseurl}}/img/health/rosacanina.jpg)
 
 ## Rosa canina
 

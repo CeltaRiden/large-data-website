@@ -7,7 +7,7 @@ Author: Wikipedia
 
 ---
 
-![Borage]()
+![Borage]({{site.baseurl}}/img/health/borage.jpg)
 
 ## Borage
 

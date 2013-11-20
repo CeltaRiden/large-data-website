@@ -12,7 +12,7 @@ description: A wonderful spread for bagels or crackers, this is creamy and herby
 
 ## Garden herb spread 
 
-![Garden Herb Spread](garden-herb-spread.jpg)
+![Garden Herb Spread]({{site.baseurl}}/img/recipes/gardenherbspread.jpg)
 
 A wonderful spread for bagels or crackers, this is creamy and herby, perfect for that ferocious morning hunger when the scrambled eggs aren't quite ready yet.
 

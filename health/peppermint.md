@@ -7,7 +7,7 @@ Author: Wikipedia
 
 ---
 
-![Peppermint](http://upload.wikimedia.org/wikipedia/commons/7/72/Pfefferminze_natur_peppermint.jpg)
+![Peppermint]({{site.baseurl}}/img/health/peppermint.jpg)
 
 ## Peppermint
 

@@ -7,7 +7,7 @@ Author: Wikipedia
 
 ---
 
-![Rosemary](http://upload.wikimedia.org/wikipedia/commons/9/92/Rosemary_bush.jpg)
+![Rosemary]({{site.baseurl}}/img/health/rosemary.jpg)
 
 ## Rosemary
 

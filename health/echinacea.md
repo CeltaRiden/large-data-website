@@ -7,7 +7,7 @@ Author: Wikipedia
 
 ---
 
-![Echinacea](http://upload.wikimedia.org/wikipedia/commons/b/b4/EchinaceaPurpureaMaxima1a.UME.JPG)
+![Echinacea]({{site.baseurl}}/img/health/echinacea.jpg)
 
 ## Echinacea
 

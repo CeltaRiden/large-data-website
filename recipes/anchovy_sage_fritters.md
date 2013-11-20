@@ -10,11 +10,7 @@ description: These small fritters make a great bar snack alongside a cold drink.
 
 ---
 
-<div class="container">
-
-<h1 class="recipe"> Anchovy Sage Fritters</h1>
-
-![anchovy sage fritters](../img/anchovy-sage-fritters.jpg)
+![anchovy sage fritters]({{site.baseurl}}/img/recipes/anchovyandsagefritters.jpg)
 
 These small fritters make a great bar snack alongside a cold drink. Alternatively, they can be used with various vegetables, such as courgette and aubergines (or fish), as part of a fritto misto. Whole capers, deep-fried, can be scattered over the final dish.
 
@@ -22,7 +18,6 @@ Serves 20
 
 <h3 class="ingredients">ingredients</h3>
 
-<div class="ingredients">
 - 150g plain flour, sifted
 - 2 tbsp olive oil
 - 2 egg whites
@@ -31,11 +26,10 @@ Serves 20
 - 40 sage leaves 
 - Sunflower oil, for deep frying
 - Salt and black pepper
-</div>
+
 
 <h3 class="instructions"> instructions</h3>
 
-<div class="instructions">
 
 1. Add the oil to the plain flour in a large bowl, whisking to combine. Slowly add lukewarm water, whisking, until the batter base is the consistency of double cream. Season with salt and pepper, then set to one side for at least 15 minutes.
 
@@ -45,9 +39,6 @@ Serves 20
 
 4. Add the oil to a saucepan until it is at least 3cm deep. Heat the oil to around 180C/350F. Have some kitchen roll ready in a tray. Dip the anchovy sage parcels in the batter and fry for a few minutes on each side until golden. This may have to be done in batches, depending on the size of the pan used. Remove with a slotted spoon and drain on kitchen roll. Serve with a wedge of lemon.
 
-</div>
-
-</div>
 
 Recipe supplied by Jane Baxter
 
