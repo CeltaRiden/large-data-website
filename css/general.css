@@ -19,32 +19,24 @@ html {
 }
 
 body {
-	background-image: url("../img/top-texture.jpg");
-	background-repeat: repeat-x;
-	background-position: top;
-	background-size: 100% 120px;
+	background-color:#F0F0F0;
+	border-top: solid #3EA755 25px;
 
 }
 
-.container{
-	display: block;
-	max-width: 60em;
-	margin: 0 auto;
-	padding: 1.5em;
-}
 
 .header-top {
 	overflow: hidden;
+	margin-top: -1.5em
 }
 
 .herbs-logo {
-	margin:0 auto;
 	text-align: center;
 	overflow: hidden;
 }
 
-.herbs-logo-img {
-	width: 100%;
+.logo-img {
+	width: 60%;
 	max-width: 340px;
 	overflow: hidden;
 }
@@ -54,7 +46,7 @@ body {
 
 .home-img {
   	display: none;
-  	margin-bottom: 10px;
+  	margin-bottom: -10px;
 }
 
 .home-img > img {
@@ -70,7 +62,8 @@ body {
 }
 
 .social-media {
-	text-align:center;	
+	text-align:center;
+	background-color:transparent;	
 }
 
 .social-media ul {
@@ -90,7 +83,8 @@ body {
 
 .header-bottom {
 	font-size:1.25em;
-	margin: 1em 0;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
 	text-align: center;
 }
 
@@ -105,16 +99,16 @@ body {
 .nav-list-item a {
 	display: block;
 	text-decoration: none;
-	background-color: #DEE1D4;
-	color: #58585B;
-	padding: 0.5em;
+	background-color: transparent;
+	color: #3EA755;
+	padding: 0.4em;
 }
 
 .nav-list-item a:hover,
 .nav-list-item a:focus,
 .nav-list-item a:active{
-	background-color:#58585B;
-	color:#DEE1D4;
+	background-color: transparent;
+	color:#323232;
 }
 
 .image-replacement {
@@ -124,18 +118,26 @@ body {
 }
 
 .intro{
-	background-color:transparent;
+	background-color:#E7E7E7;
 	text-decoration:none; 
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
 
 .intro h2{
 	font-size: 2em;
 	color: #58585B;
+	text-align: center;
 	
 }
 
 .intro p {
 	color: #58585B;
+	text-align: center;
+	margin-top: 0.5em;
 	
 }
 
@@ -143,6 +145,8 @@ body {
 	display: inline-block;
 	background-color: transparent;
 	text-decoration:none; 
+	padding: 1em;
+	margin: 1em;
 }
 
 .about h3 {
@@ -158,25 +162,51 @@ body {
 	
 }
 
+.categorylist {
+	margin:3em;
+}
+
+.categorylist h2{
+	color:#323232;
+}
+
+.categorylist a{
+	text-decoration:none;
+	list-style-type: none;
+}
+
+
+
 footer {
 	text-align:center;
-	background-color: #8CA03D;
-	margin-top: 35px;
-	padding: 2em;
+	background-color:#2F2E2E;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-right: 3em;
+	padding-left: 3em;
+	border-top: solid #434343 15px;
+	margin-top: 1em;
 
 }
 
 footer p{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 1em;
-	color: #FFF;
+	color:#F0F0F0;
 	padding: 0;
 
 }
 
+
 @media only screen and (min-width: 25em) {
-	
-	.nav-list-item {
+
+.logo-img {
+	width: 40%;
+	max-width: 300px;
+	overflow: hidden;
+}
+
+.nav-list-item {
 		display: inline-block;
 		width: 50%;
 		float: left;
@@ -184,6 +214,7 @@ footer p{
 		color: none;
 	}
 }
+
 
 .recipe-list {
 	text-decoration: none;
@@ -193,6 +224,7 @@ footer p{
 	list-style-type: none;
 }
 
+
 @media only screen and (min-width: 39em) {
 
 	body{
@@ -200,12 +232,14 @@ footer p{
 	}
 
 	header {
-		margin: 0 2em;
+		margin: 0;
+		border-top: solid #2F2E2E 70px;
 	}
  
-	.header-top {
-	}
-
+.header-top {
+	overflow: hidden;
+	margin-top: -5em
+}
 	.home-img {
 	  	display: block;
 	}
@@ -217,8 +251,15 @@ footer p{
   .herbs-logo {
 		display:inline-block;
 		float:left;  
+		margin-left: 1.2em;
+
   }
 
+  .logo-img {
+	width: 80%;
+	max-width: 340px;
+	overflow: hidden;
+}
 
   .nav-list-item {
   	display:inline;
@@ -230,36 +271,48 @@ footer p{
   .nav-list-item a {
   	display: inline;
 	background-color: transparent;
-	color: #58585B;
+	
   }
 
   .nav-list-item a:hover,
   .nav-list-item a:focus,
   .nav-list-item a:active {
   	background-color: transparent;
-  	color: #8CA03D;
+
   }
 
   .social-media{
 	  float: right;
 	  display:inline;
-	  margin-top: 7em;
+	  margin-top: 1.6em;
+	  margin-right: 2em;
   }
   
   .header-bottom {
 	text-align: left;
 }
 
-.about {
-
+.header-bottom {
+	font-size:1.25em;
+	margin-bottom: 1.5em;
+	margin-top: 1em;
+	margin-left: 2em;
+	text-align: left;
 }
-
   .unit-l-4-4 img {
   	display: block;
   	width:100%;
   }
   
+  .intro p {
+	padding-right: 4em;
+	padding-left: 4em;
+	
+}
  
+ol{
+	width:65%;
+
 }
 
 @media only screen and (min-width: 70em) {

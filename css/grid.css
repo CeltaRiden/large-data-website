@@ -4,6 +4,10 @@
   *word-spacing: -0.43em;
   text-rendering: optimizespeed;
   overflow: hidden;
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 3em;
 }
 .opera-only :-o-prefocus,
 .grid {
@@ -12,16 +16,16 @@
 .unit {
   display: inline-block;
   *display: inline;
-  zoom: 1;
   letter-spacing: normal;
   text-rendering: auto;
   vertical-align: top;
   word-spacing: normal;
-  float: left;
 }
+
 .unit-spacer {
-  padding: 8px;
+  margin: 1em;
 }
+
 @media only screen and (max-width: 38em) {
   .unit-s-hidden {
     display: none;
