@@ -3,16 +3,16 @@
 title: Lemon verbena 
 subtitle: lemon balm and lavender tea
 layout: alt
-category: Recipes
+category: Diy
 Author: Wikipedia
 thumb: lemon-verbena.jpg
 description: Soothing, refreshing and full of flavour, this is the all-round feel-good tea.
 
 ---
 
-## Anchovy Sage Fritters 
+## Lemon Balm and Lavender tea 
 
-![anchovy sage fritters]anchovy-sage-fritters.jpg
+![lemon balm and lavender tea]anchovy-sage-fritters.jpg
 
 Soothing, refreshing and full of flavour, this is the all-round feel-good tea.
 
