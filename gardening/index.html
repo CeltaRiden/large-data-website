@@ -1,8 +1,33 @@
 ---
-layout: default
 title: Gardening
+layout: default
 subtitle: Grow your own herb garden; Ottawa, Canada
 ---
+	
 
+	
+	<div class="grid border">
+			
+			<div class="categorylist unit unit-s-1 unit-m-1-2 unit-l-1-2">
+							
+							<h2>Steps to growing your own garden</h2>
 
-	<h1>Because it's funner when you make it yourself</h1>
+								<ul class="recipe-list">
+									{% for gardening in site.pages %}
+										{% if recipe.category == "Gardening" %}
+											<li>
+												<a href="{{gardening.url}}">
+													<img src="{{site.baseurl}}/img/gardening/{{recipe.thumb}}" alt="">
+													{{gardening.title}}
+												</a>
+											</li>
+										{% endif %}
+									{% endfor %}
+								</ul>
+					
+				</div>
+
+		
+	</div>
+
+	
