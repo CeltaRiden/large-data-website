@@ -4,6 +4,8 @@ subtitle: Herbs for healing
 layout: alt
 category: Health
 Author: Wikipedia
+thumb: borage.jpg
+
 
 ---
 

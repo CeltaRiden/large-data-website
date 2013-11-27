@@ -164,10 +164,12 @@ body {
 
 .categorylist {
 	margin:3em;
+	
 }
 
 .categorylist h2{
 	color:#323232;
+	margin-bottom:2em;
 }
 
 .categorylist a{
@@ -185,6 +187,7 @@ body {
 	color: #3EA755;
 	font-size: 2em;
 	text-align: center;
+	margin-top: -1.5em;
 }
 
 .notfound p{
@@ -337,6 +340,19 @@ ol{
 
 }
 
+.notfound p{
+	padding-left: 6em;
+	padding-right: 6em;
+
+}
+
+}
+
 @media only screen and (min-width: 70em) {
 
+.notfound p{
+	padding-left: 9em;
+	padding-right: 9em;
+
+}
 }

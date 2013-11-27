@@ -5,7 +5,7 @@ subtitle:
 layout: alt
 category: Recipes
 Author: Wikipedia
-thumb: saffron-rice.jpg
+thumb: saffronrice.jpg
 description: In this recipe, the rice is cooked in boiling water just like pasta. Toss it very gently, or the rice will become gummy.
 
 ---

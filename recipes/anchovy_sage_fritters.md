@@ -5,7 +5,7 @@ subtitle: anchovy sage fritters
 layout: alt
 category: Recipes
 Author: Wikipedia
-thumb: anchovy-sage-fritters.jpg
+thumb: anchovyandsagefritters.jpg
 description: These small fritters make a great bar snack alongside a cold drink. Alternatively, they can be used with various vegetables, such as courgette and aubergines (or fish), as part of a fritto misto. Whole capers, deep-fried, can be scattered over the final dish.
 
 ---

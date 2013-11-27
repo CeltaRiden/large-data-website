@@ -5,7 +5,7 @@ subtitle:
 layout: alt
 category: Recipes
 Author: Wikipedia
-thumb: wilted-herb-salad.jpg
+thumb: wiltedherbsalad.jpg
 description: Wild Moroccan herbs are the inspiration for this dish, but at home, try this mixture of parsley, coriander, spinach and rocket. If you know where to find them, you can add a handful of edible, foraged seasonal leaves, such as mallow, sorrel, poppy and dandelion.
 
 ---

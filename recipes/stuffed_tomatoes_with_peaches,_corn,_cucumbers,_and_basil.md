@@ -5,7 +5,7 @@ subtitle:
 layout: alt
 category: Recipes
 Author: Wikipedia
-thumb: stuffed-tomatoe.jpg
+thumb: stuffedtomatoe.jpg
 description: Stuffed Tomatoes with Peaches, Corn, Cucumbers, and Basil Here, a stunning chopped salad unites several summer standouts - peaches, corn, cucumbers, and basil- with the sweetly acidic flavor of vine-ripened tomatoes.
 
 ---

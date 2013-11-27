@@ -7,21 +7,29 @@ layout: default
 
 	
 
-					
-						<div class="categorylist">
+
+					<div class="grid border">
+			
+			<div class="categorylist unit unit-s-1 unit-m-1-2 unit-l-1-2">
 							
 							<h2>Health</h2>
 
-								<ul>
+								<ul class="recipe-list">
 									{% for health in site.pages %}
 										{% if health.category == "Health" %}
 											<li>
-												<a href="{{health.url}}">{{health.title}}</a>
+												<a href="{{health.url}}">
+													<img src="{{site.baseurl}}/img/health/{{health.thumb}}" alt="">
+													{{health.title}}
+												</a>
 											</li>
 										{% endif %}
 									{% endfor %}
 								</ul>
-
-						</div>	
 					
+				</div>
+
+		
+	</div>
+
 				

@@ -5,7 +5,7 @@ subtitle:
 layout: alt
 category: Recipes
 Author: Wikipedia
-thumb: rosemary-shortbread.jpg
+thumb: rosemaryshortbread.jpg
 description: The buttery nature of shortbread lends itself to being flavoured by herbs. Instead of rosemary, try this with lavender or lemon thyme. Wash the herbs and dry thoroughly before use. The orange zest brings out the spicy notes of rosemary, but you could also use lemon zest.
 
 ---

@@ -5,7 +5,7 @@ subtitle:
 layout: alt
 category: Recipes
 Author: Wikipedia
-thumb: garden-herb-spread.jpg
+thumb: gardenherbspread.jpg
 description: A wonderful spread for bagels or crackers, this is creamy and herby, perfect for that ferocious morning hunger when the scrambled eggs aren't quite ready yet.
 
 ---
