@@ -20,8 +20,13 @@ html {
 
 body {
 	background-color:#F0F0F0;
-	border-top: solid #3EA755 25px;
+	
 
+}
+
+header {
+		margin: 0;
+		background-color: #404041;
 }
 
 
@@ -258,7 +263,7 @@ footer p{
 
 	header {
 		margin: 0;
-		border-top: solid #2F2E2E 70px;
+		background-color: #404041;
 	}
  
 .header-top {
